@@ -11,6 +11,7 @@
     <module>funcao-um</module>
     <module>funcao-dois</module>
     <module>atualizar-item</module>
+    <module>deletar-item</module>
   </modules>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>

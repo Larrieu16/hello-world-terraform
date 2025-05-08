@@ -33,7 +33,8 @@ resource "aws_iam_role_policy" "dynamodb_access" {
         Action = [
           "dynamodb:PutItem",
           "dynamodb:GetItem",
-          "dynamodb:UpdateItem"
+          "dynamodb:UpdateItem",
+          "dynamodb:DeleteItem"
         ]
         Resource = var.dynamodb_table_arn
       }
@@ -58,6 +59,8 @@ resource "aws_lambda_function" "lambda_function" {
     }
   }
 }
+
+
 
 
 
