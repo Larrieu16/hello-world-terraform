@@ -55,7 +55,7 @@ resource "aws_lambda_function" "lambda_function" {
 
   environment {
     variables = {
-      TABLE_NAME = split("/", var.dynamodb_table_arn)[1] # extrai o nome da tabela do ARN, se quiser
+      TABLE_NAME = split("/", var.dynamodb_table_arn)[1]
     }
   }
 }

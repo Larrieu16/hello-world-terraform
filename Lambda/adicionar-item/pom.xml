@@ -6,7 +6,7 @@
         <artifactId>Lambda</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>funcao-um</artifactId>
-    <name>Archetype - funcao-um</name>
+    <artifactId>adicionar-item</artifactId>
+    <name>Archetype - funcao-dois</name>
     <url>http://maven.apache.org</url>
 </project>

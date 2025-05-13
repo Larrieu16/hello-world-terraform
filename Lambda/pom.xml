@@ -8,8 +8,8 @@
   <name>Archetype - LambDA</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>funcao-um</module>
-    <module>funcao-dois</module>
+    <module>hello-world</module>
+    <module>adicionar-item</module>
     <module>atualizar-item</module>
     <module>deletar-item</module>
   </modules>
@@ -43,7 +43,7 @@
               <createDependencyReducedPom>false</createDependencyReducedPom>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.example.FuncaoUmHandler</mainClass>
+                  <mainClass>com.example.HelloWorldHandler</mainClass>
                 </transformer>
               </transformers>
             </configuration>

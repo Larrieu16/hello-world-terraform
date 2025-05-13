@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-public class FuncaoDoisHandler implements RequestHandler<Map<String, Object>, Map<String, Object>> {
+public class AdicionarItemHandler implements RequestHandler<Map<String, Object>, Map<String, Object>> {
 
     private static final String TABLE_NAME = "ListaDeMercado";
 
